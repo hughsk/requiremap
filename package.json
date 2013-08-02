@@ -1,0 +1,33 @@
+{
+  "name": "requiremap",
+  "version": "0.0.0",
+  "description": "A browserify transform stream for aliasing require statements.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "falafel": "~0.3.1",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "browserify": "~2.25.1"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/requiremap.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "transform",
+    "browserify",
+    "stream",
+    "alias"
+  ]
+}
